@@ -29,41 +29,18 @@ public class PlayerSelector {
             int userInput = scnr.nextInt();
             switch(userInput){
                 
-                case 1:
-                    System.out.println( selected.getName() + " played " + selected.getGamesPlayed() + " games.");
-                    break;
-                case 2: 
-                    System.out.println( selected.getName() + " played " + selected.getMinutesPerGame() + " minutes per game");
-                    break;
-                case 3:
-                    System.out.println( selected.getName() + " had " + selected.getPointsPerGame() + " points per game");
-                    break;
-                case 4:
-                    System.out.println(selected.getName() + " had " + selected.getReboundsPerGame() + " rebounds per game");
-                    break;
-                case 5:
-                    System.out.println(selected.getName() + " had " + selected.getAssistPerGame() + " assists per game");
-                    break;
-                case 6:
-                    System.out.println(selected.getName() + " had " + selected.getStealsPerGame() + " steals per game");
-                    break;
-                case 7:
-                    System.out.println( selected.getName() + " had " + selected.getBlocksPerGame() + " blocks per game");
-                    break;
-                case 8:
-                    System.out.println(selected.getName() + " had a " + selected.getFieldGoal() + " field goal percentage for the season");
-                    break;
-                case 9:
-                    System.out.println(selected.getName() + " had " + selected.getThreePoint() + " three point percentage for the season");
-                    break;
-                case 10:
-                    System.out.println(selected.getName() + " had " + selected.getFreeThrow() + " free throw percentage for the season");
-                    break;
-                case 11:
-                    p = false;
-                    break;
-                default:
-                    System.out.println("Error. Please choose a number between 1-11");
+                case 1 -> System.out.println( selected.getName() + " played " + selected.getGamesPlayed() + " games.");
+                case 2 -> System.out.println( selected.getName() + " played " + selected.getMinutesPerGame() + " minutes per game");
+                case 3 -> System.out.println( selected.getName() + " had " + selected.getPointsPerGame() + " points per game");
+                case 4 -> System.out.println(selected.getName() + " had " + selected.getReboundsPerGame() + " rebounds per game");
+                case 5 -> System.out.println(selected.getName() + " had " + selected.getAssistPerGame() + " assists per game");
+                case 6 -> System.out.println(selected.getName() + " had " + selected.getStealsPerGame() + " steals per game");
+                case 7 -> System.out.println( selected.getName() + " had " + selected.getBlocksPerGame() + " blocks per game");
+                case 8 -> System.out.println(selected.getName() + " had a " + selected.getFieldGoal() + " field goal percentage for the season");
+                case 9 -> System.out.println(selected.getName() + " had " + selected.getThreePoint() + " three point percentage for the season");
+                case 10 -> System.out.println(selected.getName() + " had " + selected.getFreeThrow() + " free throw percentage for the season");
+                case 11 -> p = false;
+                default -> System.out.println("Error. Please choose a number between 1-11");
             }
         }
     }
@@ -71,7 +48,6 @@ public class PlayerSelector {
 
         public static void dashCreator(Player selected){
             int length = ((44 - selected.getName().length()) / 2);
-            System.out.println(length);
 
             for(int j = 0; j < length; j++){
                 System.out.print("-");
