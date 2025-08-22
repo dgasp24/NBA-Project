@@ -30,7 +30,7 @@ For future changes to the project, there are multiple things I may want to see:
 
 ## Sources
 
-I am using a mix of ChatGPT, StatMuse, Basketball Reference, and ESPN to gather the stats for the players.
+I am using a mix of StatMuse, Basketball Reference, and ESPN to gather the stats for the players.
 
 > Each website is listed here:
 >[StatMuse](https://www.statmuse.com/)
