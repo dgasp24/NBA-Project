@@ -14,8 +14,11 @@ my best to have a solid foundation going into my sophmore year and into the futu
 The structure so far is simple:
 
 - `src`: the folder where I have the main code
+  
     - `stats`: this is where I have all the csv files for the stats of each player on the teams
+      
         - `East`: Where all the East teams are at in the NBA
+          
         - `West`: Where all the West teams are at in the NBA
 
 ## Future
@@ -23,7 +26,9 @@ The structure so far is simple:
 For future changes to the project, there are multiple things I may want to see:
 
 - An implementation of API
+  
     - Instead of using CSV files I can use API to request the stats.
+  
         - Lowers the amount of storage the project uses.
 
 - Implementing Javax and making it an actual app rather than just using the console
